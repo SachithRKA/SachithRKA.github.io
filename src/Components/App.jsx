@@ -3,6 +3,8 @@ import Header from "./Header";
 import SideBar from "./SideBar";
 import About from "./About";
 import Projects from "./Projects";
+import MyFooter from "./MyFooter";
+import '../CSS/App.css';
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
           <Route path="/project" element={<Projects/>}/>
         </Routes>
       </div>
+      <MyFooter/>
     </Router>
   );
 }

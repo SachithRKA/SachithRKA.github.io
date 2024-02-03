@@ -1,0 +1,57 @@
+.my_footer {
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        font-size: 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0e141f;
+        color: #95a3ab;
+        text-align: center;
+        
+        a {
+            text-decoration: none;
+            font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+            color: #95a3ab;
+            font-size: 1.1rem;
+        }
+
+        .linkedin, .github, .email {
+            transition: 0.4s;
+            display: inline-block;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                transform: scaleX(0);
+                height: 2px;
+                bottom: 0;
+                left: 0;
+                background-color: #95a3ab;
+                transform-origin: bottom right;
+                transition: transform 0.25s ease-out;
+            }
+
+            &:hover::after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+                background-origin: #c3c9cc;
+            }
+
+            &:hover {
+                color: #c3c9cc;
+            }
+        }
+
+        .email {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
