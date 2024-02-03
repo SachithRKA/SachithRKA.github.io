@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/Sachith_Arach_PortFolio/static/js/main.bf739d2b.js",
+    "main.css": "/Sachith_Arach_PortFolio/static/css/main.e327cbc4.css",
+    "main.js": "/Sachith_Arach_PortFolio/static/js/main.a2f9b51f.js",
     "index.html": "/Sachith_Arach_PortFolio/index.html",
-    "main.bf739d2b.js.map": "/Sachith_Arach_PortFolio/static/js/main.bf739d2b.js.map"
+    "main.e327cbc4.css.map": "/Sachith_Arach_PortFolio/static/css/main.e327cbc4.css.map",
+    "main.a2f9b51f.js.map": "/Sachith_Arach_PortFolio/static/js/main.a2f9b51f.js.map"
   },
   "entrypoints": [
-    "static/js/main.bf739d2b.js"
+    "static/css/main.e327cbc4.css",
+    "static/js/main.a2f9b51f.js"
   ]
 }
