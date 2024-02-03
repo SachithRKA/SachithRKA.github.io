@@ -10,7 +10,7 @@ function MyFooter() {
             <div className="footer">
                 <p className="year">© {year}</p>
                 <a href="https://github.com/SachithRKA" className="github">GitHub</a>
-                <a href="www.linkedin.com/in/sachith-arach-05b10326b" className="linkedin">Linkedin</a>
+                <a href="https://www.linkedin.com/in/sachith-arach-05b10326b" className="linkedin">Linkedin</a>
                 <CopyToClipboard text={email} onCopy={() => alert('Copied to clipboard')}>
                     <a className="email">Email: sachithRKA@gmail.com</a>
                 </CopyToClipboard>
