@@ -22,6 +22,9 @@
   width: 20%;
   float: left;
 }
+.header .name:hover {
+  color: #c3c9cc;
+}
 .header hr {
   border-color: #3c4042;
 }

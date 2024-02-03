@@ -18,7 +18,7 @@ function Header() {
                 <TextTransition>{name}</TextTransition>
             </div>
             <div className="resume-button">
-                <a className="resume-link" href="../Resume/Sachith_Arach_Resume.pdf" download="Sachith_Arach_Resume.pdf">Resume</a>
+                <a className="resume-link" href="https://drive.google.com/uc?export=download&id=1VNbRwngBWzlyIZfKDSf10DXPQ2UZOkcE">Resume</a>
             </div>
             <div className="line">
                 <hr />
