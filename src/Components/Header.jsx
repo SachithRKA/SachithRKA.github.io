@@ -18,7 +18,7 @@ function Header() {
                 <TextTransition>{name}</TextTransition>
             </div>
             <div className="resume-button">
-                <a className="resume-link" href="../Resume/Sachith_Arach_Resume.pdf" download="Sachith_Arach_Resume.pdf">Resume</a>
+                <a className="resume-link" href="https://raw.githubusercontent.com/SachithRKA/Sachith_Arach_PortFolio/main/src/Resume/Sachith_Arach_Resume.pdf" download="Sachith_Arach_Resume.pdf">Resume</a>
             </div>
             <div className="line">
                 <hr />
