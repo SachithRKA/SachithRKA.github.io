@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/Sachith_Arach_PortFolio.git/static/js/main.bf739d2b.js",
-    "index.html": "/Sachith_Arach_PortFolio.git/index.html",
-    "main.bf739d2b.js.map": "/Sachith_Arach_PortFolio.git/static/js/main.bf739d2b.js.map"
+    "main.js": "/Sachith_Arach_PortFolio/static/js/main.bf739d2b.js",
+    "index.html": "/Sachith_Arach_PortFolio/index.html",
+    "main.bf739d2b.js.map": "/Sachith_Arach_PortFolio/static/js/main.bf739d2b.js.map"
   },
   "entrypoints": [
     "static/js/main.bf739d2b.js"
