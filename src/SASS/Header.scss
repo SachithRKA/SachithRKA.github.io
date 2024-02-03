@@ -1,0 +1,64 @@
+.header {
+    background-color: #0e141f;
+    color: #95a3ab;
+    font-family: Share Tech Mono, monospace;
+    margin: 0;
+
+    .name {
+        font-size: 2rem;
+        padding: 20px 20px;
+        font-weight: 500;
+        width: 20%;
+        float: left;
+    }
+
+    hr {
+        border-color: #3c4042;
+    }
+
+    a {
+        font-size: 1.5rem;
+        background-color:#0e141f;
+        color:#95a3ab;
+        font-family: Share Tech Mono, monospace;
+        text-decoration: none;
+    }
+
+    .resume-button {
+        float: right;
+        padding: 20px 20px;
+
+        .resume-link {
+            display: inline-block;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                transform: scaleX(0);
+                height: 2px;
+                bottom: 0;
+                left: 0;
+                background-color: #95a3ab;
+                transform-origin: bottom right;
+                transition: transform 0.25s ease-out;
+            }
+
+            &:hover::after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+                background-color: #c3c9cc;
+            }
+
+            &:hover {
+                color: #c3c9cc;
+            }
+        }
+    }
+
+    .line {
+        padding-top:70px;
+    }
+}
+

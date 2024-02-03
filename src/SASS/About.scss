@@ -1,0 +1,39 @@
+.abouts {
+    display: flex;
+    float:right;
+    font-family: Share Tech Mono, monospace;
+    margin: 0;
+    padding: 0;
+    width: 70%;
+
+    p {
+        font-size: 1.8rem;
+        padding: 20px 20px;
+        font-weight: 500;
+        text-align: justify;
+    }
+
+    .title {
+        color: white;
+    }
+
+    .description {
+        color: #95a3ab;
+    }
+
+    .span-title {
+        font-weight: bold;
+        color: rgb(36, 85, 124);
+        transition: 2s;
+
+        &:hover {
+            color: rgb(120, 167, 206);
+        }
+    }
+
+    .objects {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
