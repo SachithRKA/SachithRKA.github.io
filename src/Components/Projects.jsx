@@ -44,15 +44,15 @@ function Projects() {
                     </div>
                     
                     <div>
-                        <img src="/Images-Videos/frontend2.png" alt="User Authentication System Screenshot 2" />
+                        <img src= {URL + "/Images-Videos/frontend2.png"} alt="User Authentication System Screenshot 2" />
                     </div>
 
                     <div>
-                        <img src="/Images-Videos/frontend3.png" alt="User Authentication System Screenshot 3" />
+                        <img src= {URL + "/Images-Videos/frontend3.png"} alt="User Authentication System Screenshot 3" />
                     </div>
 
                     <div>
-                        <img src="/Images-Videos/frontend4.png" alt="User Authentication System Screenshot 3" />
+                        <img src= {URL + "/Images-Videos/frontend4.png"} alt="User Authentication System Screenshot 3" />
                     </div>
                 </Carousel>
 
@@ -90,19 +90,19 @@ function Projects() {
 
                 <Carousel showArrows={false} autoPlay={true} infiniteLoop={true} interval={2000}>
                     <div>
-                        <img src="/Images-Videos/auth1.png" alt="User Authentication System Screenshot 1" />
+                        <img src= {URL + "/Images-Videos/auth1.png"} alt="User Authentication System Screenshot 1" />
                     </div>
                     
                     <div>
-                        <img src="/Images-Videos/auth2.png" alt="User Authentication System Screenshot 2" />
+                        <img src= {URL + "/Images-Videos/auth2.png"} alt="User Authentication System Screenshot 2" />
                     </div>
 
                     <div>
-                        <img src="/Images-Videos/auth3.png" alt="User Authentication System Screenshot 3" />
+                        <img src= {URL + "/Images-Videos/auth3.png"} alt="User Authentication System Screenshot 3" />
                     </div>
 
                     <div>
-                        <img src="/Images-Videos/auth4.png" alt="User Authentication System Screenshot 4" />
+                        <img src= {URL + "/Images-Videos/auth4.png"} alt="User Authentication System Screenshot 4" />
                     </div>
                 </Carousel>
 
@@ -119,15 +119,15 @@ function Projects() {
 
                 <Carousel showArrows={false} autoPlay={true} infiniteLoop={true} interval={2000}>
                     <div>
-                        <img src="/Images-Videos/notetaker1.png" alt="User Authentication System Screenshot 1" />
+                        <img src= {URL + "/Images-Videos/notetaker1.png"} alt="User Authentication System Screenshot 1" />
                     </div>
                     
                     <div>
-                        <img src="/Images-Videos/notetaker2.png" alt="User Authentication System Screenshot 2" />
+                        <img src= {URL + "/Images-Videos/notetaker2.png"} alt="User Authentication System Screenshot 2" />
                     </div>
 
                     <div>
-                        <img src="/Images-Videos/notetaker3.png" alt="User Authentication System Screenshot 3" />
+                        <img src= {URL + "/Images-Videos/notetaker3.png"} alt="User Authentication System Screenshot 3" />
                     </div>
                 </Carousel>
 
@@ -144,19 +144,19 @@ function Projects() {
 
                 <Carousel showArrows={false} autoPlay={true} infiniteLoop={true} interval={2000}>
                     <div>
-                            <img src="/Images-Videos/portfolio.png" alt="Blog Project Image 1" />
+                            <img src= {URL + "/Images-Videos/portfolio.png"} alt="Blog Project Image 1" />
                     </div>
 
                     <div>
-                            <img src="/Images-Videos/portfolio2.png" alt="Blog Project Image 1" />
+                            <img src= {URL + "/Images-Videos/portfolio2.png"} alt="Blog Project Image 1" />
                     </div>
 
                     <div>
-                            <img src="/Images-Videos/portfolio3.png" alt="Blog Project Image 1" />
+                            <img src= {URL + "/Images-Videos/portfolio3.png"} alt="Blog Project Image 1" />
                     </div>
 
                     <div>
-                            <img src="/Images-Videos/portfolio4.png" alt="Blog Project Image 1" />
+                            <img src= {URL + "/Images-Videos/portfolio4.png"} alt="Blog Project Image 1" />
                     </div>
                 </Carousel>
 
@@ -173,19 +173,19 @@ function Projects() {
 
                 <Carousel showArrows={false} autoPlay={true} infiniteLoop={true} interval={2000}>
                     <div>
-                        <img src="/Images-Videos/blog.png" alt="Blog Project Image 1" />
+                        <img src= {URL + "/Images-Videos/blog.png"} alt="Blog Project Image 1" />
                     </div>
 
                     <div>
-                        <img src="/Images-Videos/blog2.png" alt="Blog Project Image 2" />
+                        <img src= {URL + "/Images-Videos/blog2.png"} alt="Blog Project Image 2" />
                     </div>
 
                     <div>
-                        <img src="/Images-Videos/blog3.png" alt="Blog Project Image 3" />
+                        <img src= {URL + "/Images-Videos/blog3.png"} alt="Blog Project Image 3" />
                     </div>
 
                     <div>
-                        <img src="/Images-Videos/blog4.png" alt="Blog Project Image 3" />
+                        <img src= {URL + "/Images-Videos/blog4.png"} alt="Blog Project Image 3" />
                     </div>
                 </Carousel>
 
@@ -202,35 +202,35 @@ function Projects() {
 
                 <Carousel showArrows={false} autoPlay={true} infiniteLoop={true} interval={2000}>
                     <div>
-                            <img src="/Images-Videos/your-library.png" alt="Blog Project Image 1" />
+                            <img src= {URL + "/Images-Videos/your-library.png"} alt="Blog Project Image 1" />
                     </div>
 
                     <div>
-                            <img src="/Images-Videos/your-library2.png" alt="Blog Project Image 1" />
+                            <img src= {URL + "/Images-Videos/your-library2.png"} alt="Blog Project Image 1" />
                     </div>
 
                     <div>
-                            <img src="/Images-Videos/your-library3.png" alt="Blog Project Image 1" />
+                            <img src= {URL + "/Images-Videos/your-library3.png"} alt="Blog Project Image 1" />
                     </div>
 
                     <div>
-                            <img src="/Images-Videos/your-library4.png" alt="Blog Project Image 1" />
+                            <img src= {URL + "/Images-Videos/your-library4.png"} alt="Blog Project Image 1" />
                     </div>
 
                     <div>
-                            <img src="/Images-Videos/your-library5.png" alt="Blog Project Image 1" />
+                            <img src= {URL + "/Images-Videos/your-library5.png"} alt="Blog Project Image 1" />
                     </div>
 
                     <div>
-                            <img src="/Images-Videos/your-library6.png" alt="Blog Project Image 1" />
+                            <img src= {URL + "/Images-Videos/your-library6.png"} alt="Blog Project Image 1" />
                     </div>
 
                     <div>
-                            <img src="/Images-Videos/your-library7.png" alt="Blog Project Image 1" />
+                            <img src= {URL + "/Images-Videos/your-library7.png"} alt="Blog Project Image 1" />
                     </div>
 
                     <div>
-                            <img src="/Images-Videos/your-library8.png" alt="Blog Project Image 1" />
+                            <img src= {URL + "/Images-Videos/your-library8.png"} alt="Blog Project Image 1" />
                     </div>
                 </Carousel>
 
