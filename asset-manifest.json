@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Sachith_Ranaweera_PortFolio/static/css/main.2d27dced.css",
-    "main.js": "/Sachith_Ranaweera_PortFolio/static/js/main.ace8d438.js",
+    "main.js": "/Sachith_Ranaweera_PortFolio/static/js/main.5cebac68.js",
     "index.html": "/Sachith_Ranaweera_PortFolio/index.html",
     "main.2d27dced.css.map": "/Sachith_Ranaweera_PortFolio/static/css/main.2d27dced.css.map",
-    "main.ace8d438.js.map": "/Sachith_Ranaweera_PortFolio/static/js/main.ace8d438.js.map"
+    "main.5cebac68.js.map": "/Sachith_Ranaweera_PortFolio/static/js/main.5cebac68.js.map"
   },
   "entrypoints": [
     "static/css/main.2d27dced.css",
-    "static/js/main.ace8d438.js"
+    "static/js/main.5cebac68.js"
   ]
 }
