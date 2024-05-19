@@ -40,7 +40,7 @@ function Projects() {
 
                 <Carousel showArrows={false} autoPlay={true} infiniteLoop={true} interval={2000}>
                     <div>
-                        <img src= {URL + "/Images-Videos/frontend.png"} alt="User Authentication System Screenshot 1" />
+                        <img src= {URL + "s/Images-Videos/frontend.png"} alt="User Authentication System Screenshot 1" />
                     </div>
                     
                     <div>
