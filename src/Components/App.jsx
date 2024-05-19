@@ -22,7 +22,7 @@ function App() {
         <SideBar />
         <Routes>
           <Route path="/" element={<About />} />
-          <Route path="/about" element={<About/>}/>
+          {/* <Route path="/about" element={<About/>}/> */}
           <Route path="/project" element={<Projects/>}/>
           <Route path="/certifications" element={<Certifications/>}/>
         </Routes>
