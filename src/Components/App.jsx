@@ -21,10 +21,10 @@ function App() {
       <div className="Pages">
         <SideBar />
         <Routes>
-          <Route path="/" element={<About/>}/>
+          <Route path="/" element={<Navigate to="/about" replace />} />
+          <Route path="/about" element={<About/>}/>
           <Route path="/project" element={<Projects/>}/>
           <Route path="/certifications" element={<Certifications/>}/>
-          <Route path="/" element={<Navigate to="/about" replace />} />
         </Routes>
       </div>
 
