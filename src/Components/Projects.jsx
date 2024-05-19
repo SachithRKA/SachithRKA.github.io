@@ -5,6 +5,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 
 function Projects() {
+    const URL = "https://SachithRKA.github.io/Sachith_Ranaweera_PortFolio";
+
     return (
         <div className="projects">
             <div className="project">
@@ -38,7 +40,7 @@ function Projects() {
 
                 <Carousel showArrows={false} autoPlay={true} infiniteLoop={true} interval={2000}>
                     <div>
-                        <img src="/Images-Videos/frontend.png" alt="User Authentication System Screenshot 1" />
+                        <img src= {URL + "/Images-Videos/frontend.png"} alt="User Authentication System Screenshot 1" />
                     </div>
                     
                     <div>
