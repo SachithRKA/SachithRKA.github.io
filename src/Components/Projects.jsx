@@ -5,7 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 
 function Projects() {
-    const URL = "https://SachithRKA.github.io/Sachith_Ranaweera_PortFolio";
+    const URL = "https://sachithrka.github.io/about";
 
     return (
         <div className="projects">

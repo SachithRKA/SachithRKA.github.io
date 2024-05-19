@@ -19,7 +19,7 @@ function About() {
     React.useEffect(() => {
         const intervalId = setInterval(
             () => setIndex((index) => index + 1),
-            1500,
+            4000,
         );
         
         return () => clearTimeout(intervalId);
