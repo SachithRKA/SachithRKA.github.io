@@ -1,5 +1,22 @@
+:root {
+  --bg-color: #f1ebe0;
+  --primary-color: #6a5c54;
+  --hover-color: #3c3630;
+  --border-color: #bfb9b2;
+  --accent-color: #cb7b84;
+  --accent-hover-color: #87a898;
+  --secondary-bg-color: #eae4d9;
+  --secondary-border-color: #191c1f;
+  --shadow-color: #c3c9cc;
+  --title-color: black;
+  --code-border-color: #191c1f;
+  --font-color: #191c1f;
+  --bar-color: #da6d25;
+  --bar-background: #1f4a59;
+}
+
 * {
-  background-color: #0e141f;
+  background-color: var(--bg-color); 
   box-sizing: border-box;
   margin-left: 10px;
   margin-right: 10px;
@@ -10,11 +27,12 @@
 }
 
 .header {
-  background-color: #0e141f;
-  color: #95a3ab;
+  background-color: var(--bg-color); 
+  color: var(--primary-color); 
   font-family: Share Tech Mono, monospace;
   margin: 0;
 }
+
 .header .name {
   font-size: 2rem;
   padding: 20px 20px;
@@ -22,27 +40,33 @@
   width: 20%;
   float: left;
 }
+
 .header .name:hover {
-  color: #c3c9cc;
+  color: var(--hover-color); 
 }
+
 .header hr {
-  border-color: #3c4042;
+  border-color: var(--border-color);
 }
+
 .header a {
   font-size: 1.5rem;
-  background-color: #0e141f;
-  color: #95a3ab;
+  background-color: var(--bg-color); 
+  color: var(--primary-color); 
   font-family: Share Tech Mono, monospace;
   text-decoration: none;
 }
+
 .header .resume-button {
   float: right;
   padding: 20px 20px;
 }
+
 .header .resume-button .resume-link {
   display: inline-block;
   position: relative;
 }
+
 .header .resume-button .resume-link::after {
   content: "";
   position: absolute;
@@ -51,18 +75,21 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #95a3ab;
+  background-color: var(--primary-color); 
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
+
 .header .resume-button .resume-link:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-  background-color: #c3c9cc;
+  background-color: var(--hover-color); 
 }
+
 .header .resume-button .resume-link:hover {
-  color: #c3c9cc;
+  color: var(--hover-color); 
 }
+
 .header .line {
   padding-top: 70px;
 }
@@ -77,8 +104,9 @@
   gap: 20px;
   margin-top: 50px;
 }
+
 .sidebar .about, .sidebar .projects, .sidebar .certifications {
-  color: rgb(36, 85, 124);
+  color: var(--accent-color);
   font-size: 1.7rem;
   text-decoration: none;
   font-family: "Share Tech Mono", monospace;
@@ -86,6 +114,7 @@
   display: inline-block;
   position: relative;
 }
+
 .sidebar .about::after, .sidebar .projects::after, .sidebar .certifications::after {
   content: "";
   position: absolute;
@@ -94,24 +123,29 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: rgb(120, 167, 206);
+  background-color: var(--accent-hover-color);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
+
 .sidebar .about:hover::after, .sidebar .projects:hover::after, .sidebar .certifications:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-  background-origin: rgb(36, 85, 124);
+  background-color: var(--accent-color);
 }
+
 .sidebar .about:hover, .sidebar .projects:hover, .sidebar .certifications:hover {
-  color: rgb(120, 167, 206);
+  color: var(--accent-hover-color); 
 }
+
 .sidebar .about {
   width: 75px;
 }
+
 .sidebar .projects {
   width: 120px;
 }
+
 .sidebar .certifications {
   width: 205px;
 }
@@ -122,28 +156,38 @@
   font-family: Share Tech Mono, monospace;
   margin: 0;
   padding: 0;
-  width: 70%;
+  width: 80%;
 }
+
+.abouts .about {
+  width: 100%;
+}
+
 .abouts p {
   font-size: 1.8rem;
   padding: 20px 20px;
   font-weight: 500;
   text-align: justify;
 }
+
 .abouts .title {
-  color: white;
+  color: var(--title-color);
 }
+
 .abouts .description {
-  color: #95a3ab;
+  color: var(--primary-color); 
 }
+
 .abouts .span-title {
   font-weight: bold;
-  color: rgb(36, 85, 124);
+  color: var(--accent-color);
   transition: 2s;
 }
+
 .abouts .span-title:hover {
-  color: rgb(120, 167, 206);
+  color: var(--accent-hover-color); 
 }
+
 .abouts .objects {
   flex-wrap: wrap;
   justify-content: center;
@@ -151,46 +195,54 @@
 }
 
 .projects .project {
-  color: #95a3ab;
+  color: var(--primary-color);
   font-size: 1rem;
   display: flex;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
   flex-direction: column;
   align-items: flex-start;
-  border: 3px dashed #95a3ab;
+  border: 3px dashed var(--primary-color);
   padding: 30px 10px;
   border-radius: 3px;
   margin-top: 50px;
   margin-bottom: 50px;
+  width: 70%;
 }
+
 .projects .project:hover {
-  box-shadow: #3b3d3d 1px 5px 10px;
+  box-shadow: var(--shadow-color) 1px 5px 10px; 
 }
+
 .projects .title {
   font-size: 2rem;
-  color: rgb(120, 167, 206);
+  color: var(--accent-hover-color); 
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-decoration: none;
 }
+
 .projects .title:hover {
   text-decoration: underline;
 }
+
 .projects .skills {
   font-size: 1.1rem;
 }
+
 .projects .link {
   font-size: 1.4rem;
-  color: rgb(120, 167, 206);
+  color: var(--accent-hover-color); 
   text-decoration: none;
 }
+
 .projects .link:hover {
   text-decoration: underline;
 }
+
 .projects code {
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: #161b22;
-  border: 1px solid #e6edf3;
+  background-color: var(--secondary-bg-color); 
+  border: 1px solid var(--secondary-border-color);
   display: block;
   padding: 20px;
   border: none;
@@ -205,21 +257,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0e141f;
-  color: #95a3ab;
+  background-color: var(--bg-color); 
+  color: var(--primary-color); 
   text-align: center;
 }
+
 .my_footer .footer a {
   text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Noto Sans, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
-  color: #95a3ab;
+  color: var(--primary-color);
   font-size: 1.1rem;
 }
+
 .my_footer .footer .linkedin, .my_footer .footer .github, .my_footer .footer .email {
   transition: 0.4s;
   display: inline-block;
   position: relative;
 }
+
 .my_footer .footer .linkedin::after, .my_footer .footer .github::after, .my_footer .footer .email::after {
   content: "";
   position: absolute;
@@ -228,20 +283,219 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #95a3ab;
+  background-color: var(--primary-color);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
+
 .my_footer .footer .linkedin:hover::after, .my_footer .footer .github:hover::after, .my_footer .footer .email:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-  background-origin: #c3c9cc;
+  background-color: var(--accent-color);
 }
+
 .my_footer .footer .linkedin:hover, .my_footer .footer .github:hover, .my_footer .footer .email:hover {
-  color: #c3c9cc;
+  color: var(--accent-color);
 }
+
 .my_footer .footer .email:hover {
   cursor: pointer;
 }
 
-/*# sourceMappingURL=App.css.map */
+.skills {
+  box-sizing: border-box;
+}
+
+.skill {
+  font-size: 1.5rem;
+}
+
+.skill ul, .skills ul {
+  margin: 0;
+  padding: 0;
+}
+
+.skill ul {
+  width: 500px;
+}
+
+.skill li {
+  list-style: none;
+  color: var(--font-color);
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 48px 0;
+  position: relative;
+}
+
+.skill li:before, .skill li:after {
+  content: "";
+  display: block;
+  height: 16px;
+  width: 100%;
+  background-color: var(--bar-background);
+  position: absolute;
+  bottom: -28px;
+  border-radius: 6px;
+}
+
+.skill li:before {
+  box-shadow: 0 0 6px white;
+}
+
+.skill li:after {
+  background-image: linear-gradient(90deg, var(--bar-color), var(--bar-color) 50%);
+}
+
+.skill li::after {
+  animation-duration: 1.2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+.skill .javascript::after {
+  animation-name: javascript;
+}
+
+.skill .html::after {
+  animation-name: html;
+}
+
+.skill .css::after {
+  animation-name: css;
+}
+
+.skill .python::after {
+  animation-name: python;
+}
+
+.skill .wordpress::after {
+  animation-name: wordpress;
+}
+
+.skill .php::after {
+  animation-name: php;
+}
+
+.skill .react::after {
+  animation-name: react;
+}
+
+.skill .node::after {
+  animation-name: node;
+}
+
+.skill .postgresql::after {
+  animation-name: postgresql;
+}
+
+.skill .mongodb::after {
+  animation-name: mongodb;
+}
+
+.skill .linux::after {
+  animation-name: linux;
+}
+
+.javascript, .html, .css, .python, .wordpress, .php, .react, .node, .postgresql, .mongodb, .linux {
+  animation: none;
+}
+
+@keyframes javascript {
+  from {
+    width: 0;
+  }
+  to {
+    width: 86%;
+  }
+}
+
+@keyframes html {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes python {
+  from {
+    width: 0;
+  }
+  to {
+    width: 75%;
+  }
+}
+
+@keyframes wordpress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 70%;
+  }
+}
+
+@keyframes php {
+  from {
+    width: 0;
+  }
+  to {
+    width: 65%;
+  }
+}
+
+@keyframes react {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes node {
+  from {
+    width: 0;
+  }
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes postgresql {
+  from {
+    width: 0;
+  }
+  to {
+    width: 77%;
+  }
+}
+
+@keyframes mongodb {
+  from {
+    width: 0;
+  }
+  to {
+    width: 74%;
+  }
+}
+
+@keyframes linux {
+  from {
+    width: 0;
+  }
+  to {
+    width: 90%;
+  }
+}

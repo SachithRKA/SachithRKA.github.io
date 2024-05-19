@@ -1,0 +1,194 @@
+.skills {
+    box-sizing: border-box;
+  }
+  
+  .skills .ul, .skills .ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skills .ul {
+    width: 500px;
+  }
+  
+  .skills .li {
+    list-style: none;
+    color: var(--accent-color);
+    font-size: 18px;
+    margin: 48px 0;
+    position: relative;
+  }
+  
+  .skills li:before, .skills li:after {
+    content: "";
+    display: block;
+    height: 16px;
+    width: 100%;
+    background-color: var(--accent-hover-color);
+    position: absolute;
+    bottom: -28px;
+    border-radius: 6px;
+  }
+  
+  .skills li:before {
+    box-shadow: 0 0 6px var(--hover-color);
+  }
+  
+  .skills li:after {
+    background-image: linear-gradient(
+      90deg,
+      #6a5c54,
+      bfb9b2
+    );
+  }
+  
+  .skills li::after{
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .skills .javascript::after {
+    animation-name: javascript;
+  }
+  
+  .skills .html::after {
+    animation-name: html;
+  }
+  
+  .skills .css::after {
+    animation-name: css;
+  }
+  
+  .skills .python::after {
+    animation-name: python;
+  }
+  
+  .skills .wordpress::after {
+    animation-name: wordpress;
+  }
+  
+  .skills .php::after {
+    animation-name: php;
+  }
+  
+  .skills .react::after {
+    animation-name: react;
+  }
+  
+  .skills .node::after {
+    animation-name: node;
+  }
+  
+  .skills .postgresql::after {
+    animation-name: postgresql;
+  }
+  
+  .skills .mongodb::after {
+    animation-name: mongodb;
+  }
+  
+  .skills .linux::after {
+    animation-name: linux;
+  }
+  
+  @keyframes javascript {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes html {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes css {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes python {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes wordpress {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes php {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes react {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes node {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes postgresql {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes mongodb {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes linux {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  
