@@ -228,10 +228,6 @@ function Projects() {
                     <div>
                             <img src= {URL + "/Images-Videos/your-library7.png"} alt="Blog Project Image 1" />
                     </div>
-
-                    <div>
-                            <img src= {URL + "/Images-Videos/your-library8.png"} alt="Blog Project Image 1" />
-                    </div>
                 </Carousel>
 
                 <code className="description">
