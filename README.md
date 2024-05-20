@@ -75,8 +75,3 @@ Weather-API is a web application that retrieves real-time weather information us
 - [Project Link](#)
 
 Technologies: API, HTTP, REST API, Node.js, EJS
-
-## Contact
-For any inquiries or collaborations, feel free to reach out.
-
-GitHub Repository: [SachithRKA.github.io](git@github.com:SachithRKA/SachithRKA.github.io.git)
