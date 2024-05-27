@@ -246,7 +246,7 @@ function Projects() {
 
                 <Carousel showArrows={false} autoPlay={true} infiniteLoop={true} interval={2000}>
                     <div>
-                            <img src="/Images-Videos/weatherapp.png" alt="Blog Project Image 1" />
+                            <img src="/Images-Videos/weatherapp.gif" alt="Blog Project Image 1" />
                     </div>
                 </Carousel>
 
