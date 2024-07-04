@@ -18,7 +18,7 @@ function Projects() {
                         title="ASL Gemini App Demo"
                         width="560"
                         height="315"
-                        src="https://youtu.be/Ugdj0LZ2tBc"
+                        src="https://www.youtube.com/embed/Ugdj0LZ2tBc"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen
@@ -257,6 +257,26 @@ function Projects() {
                 <a href="https://github.com/SachithRKA/Weather-API" className="link">Link</a>
             </div>
 
+            <div className="project">
+                <p className="skills">Typescript</p>
+                <a className="title" href="https://github.com/SachithRKA/Cell_Growth_Simulation">Cell_Growth_Simulation</a>
+
+                <Carousel showArrows={false} autoPlay={true} infiniteLoop={true} interval={2000}>
+                    <div>
+                        <img src= {URL + "/Images-Videos/Cell_Simulation.png"} alt="Cell Simulation Image 1" />
+                    </div>
+
+                    <div>
+                        <img src= {URL + "/Images-Videos/Cell_Simulation2.png"} alt="Cell Simulation Image 2" />
+                    </div>
+                </Carousel>
+
+                <code className="description">
+                The project Cell Growth Simulation simulates the growth patterns of bacterial colonies within a confined space. This interactive application demonstrates how bacterial cells divide and spread based on specific biological rules. The project is built solely using TypeScript, without any third-party packages.                
+                </code>
+                <a href="https://github.com/SachithRKA/Weather-API" className="link">Link</a>
+                <a href="https://sachithrka.me/Cell_Growth_Simulation/" className="link">Hosted Link</a>
+            </div>
 
         </div>
     );
